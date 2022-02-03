@@ -5,33 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+<!-- Основа -->
 <body>
-    
+    <!-- Хедер -->
     <header>
         <nav>
-            <a href="">WebStudio</a>
-                <ul>
-                    <li><a href="">Студия</a></li>
-                    <li><a href="">Портфолио</a></li>
-                    <li><a href="">Контакты</a></li>
-                </ul>
+            <!-- Лого в хедере -->
+            <a class="header-logo link" href="">
+                <span class="colorised-text-logo">Web</span>Studio
+            </a>
+            <!-- Навигация -->
+            <ul class="site-nav list">
+                <li><a class="site-nav-link link" href="./index.html">Студия</a></li>
+                <li><a class="site-nav-link link" href="./portfolio.html">Портфолио</a></li>
+                <li><a class="site-nav-link link" href="">Контакты</a></li>
+            </ul>
         </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <!-- Контакты в хедере -->
+        <ul class="auth-nav list">
+            <li><a class="auth-nav-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="auth-nav-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
-
+    
     <main>
-        <section>
-            <h1>Эффективные решения <br /> для вашего бизнеса</h1>
+        <!-- Шапка -->
+        <section class="hero">
+            <h1>Эффективные решения <br/> для вашего бизнеса</h1>
             <button type="button">Заказать услугу</button>
         </section>
-
-        <section>
-            <h2>Особенности</h2>
-            <ul>
+        <!-- Особенности -->
+        <section class="section">
+            <h2 class="section-title">Особенности</h2>
+            <ul class="list">
                 <li>
                     <h3>Внимание к деталям</h3>
                     <p>
@@ -58,19 +68,19 @@
                 </li>
             </ul>
         </section>
-
-        <section>
-            <h2>Чем мы занимаемся</h2>
-            <ul>
+        <!-- Чем мы занимаемся -->
+        <section class="section">
+            <h2 class="section-title">Чем мы занимаемся</h2>
+            <ul class="list">
                 <li><img src="images/box1.jpg" alt="Разработка" width="370"></li>
                 <li><img src="images/box2.jpg" alt="Мобильные приложения" width="370"></li>
                 <li><img src="images/box3.jpg" alt="Дизайн" width="370"></li>
             </ul>
         </section>
-
-        <section>
-            <h2>Наша команда</h2>
-            <ul>
+        <!-- Наша команда -->
+        <section class="section">
+            <h2 class="section-title">Наша команда</h2>
+            <ul class="list">
                 <li>
                     <img src="images/img1.jpg" alt="Игорь Демьяненко" width="270" height="260">
                     <h3>Игорь Демьяненко</h3>
@@ -94,19 +104,21 @@
             </ul>
         </section>
     </main>
-
+    <!-- Подвал -->
     <footer>
-        <a href="">WebStudio</a>
+        <a class="footer-contacts-logo link" href="">
+            <span class="colorised-text-logo">Web</span>Studio
+        </a>
         <address>
-            <ul>
+            <ul class="footer-contacts list">
                 <li>
-                    <p>г. Киев, пр-т Леси Украинки, 26</p>
+                    <p class="footer-contacts-adress">г. Киев, пр-т Леси Украинки, 26</p>
                 </li>
                 <li>
-                    <a href="mailto:info@example.com">info@example.com</a>
+                    <a class="footer-contacts-link link" href="mailto:info@example.com">info@example.com</a>
                 </li>
                 <li>
-                    <a href="tel:+380991111111">+38 099 111 11 11</a>
+                    <a class="footer-contacts-link link" href="tel:+380991111111">+38 099 111 11 11</a>
                 </li>
             </ul>
         </address>

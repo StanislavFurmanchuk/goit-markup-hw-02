@@ -1,0 +1,69 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #ffffff;
+  --extra-text-color: #757575;
+  --button-bg-color: #f5f4fa;
+  --focus-color: #2196f3;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+}
+/* Общие стили */
+body {
+  background-color: #fff;
+  color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* Стили хедера */
+
+.site-nav-link {
+  color: var(--primary-text-color);
+}
+.site-nav-link:focus,
+.site-nav-link:hover {
+  color: var(--focus-color);
+}
+.auth-nav-link {
+  color: var(--extra-text-color);
+}
+.auth-nav-link:focus,
+.auth-nav-link:hover {
+  color: var(--focus-color);
+}
+.header-logo {
+  color: #000;
+}
+.colorised-text-logo {
+  color: var(--focus-color);
+}
+
+/* Стили портфолио */
+.filter-button {
+  color: var(--primary-text-color);
+  background-color: var(--button-bg-color);
+}
+.filter-button:focus,
+.filter-button:hover {
+  color: var(--secondary-text-color);
+  background-color: var(--focus-color);
+}
+
+/* Стили футтера */
+.footer-contacts-logo {
+  color: var(--secondary-text-color);
+}
+.footer-contacts-adress {
+  color: var(--secondary-text-color);
+}
+.footer-contacts-link {
+  color: var(--footer-contacts-color);
+}
+.footer-contacts-link:focus,
+.footer-contacts-link:hover {
+  color: var(--focus-color);
+}
